@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/* colors and fonts */
+header, footer{
+    background-color: #1F2937;
+}
+
+h1{
+    font-size: 44px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+header span{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header li a, li, .container p, .button a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.button{
+    background-color: #3882F6;
+}
+
+main h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+article{
+    background-color: #E5E7EB;
+}
+
+article p, article span{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+/* colors and fonts */
+
+/* header */
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 50px 50px 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.expla{
+    width: 450px;
+    height: 270px;
+}
+
+.img{
+    width: 500px;
+    height: 270px;
+}
+
+.container .img{
+    background-color: #9397a0;
+}
+
+.img, .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+}
+/* header */
+
+/* main */
+main{
+    padding: 10px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes{
+    display: flex;
+    gap: 50px;
+}
+
+.box{
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.info{
+    width: 150px;
+    text-align: center;
+}
+/* main */
+
+/* article */
+article{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article p{
+    width: 780px;
+}
+
+article span{
+    position: relative;
+    left: 170px;
+}
+/* article */
+
+/* cont */
+.cont{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    padding: 10px 150px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    color: white;
+}
+
+.cont .button{
+    position: relative;
+    top: 15px;
+    border: 1px solid white;
+} 
+/* cont */
+
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+/* footer */
