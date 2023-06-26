@@ -1,8 +1,8 @@
+:root{
+    --fs-base: 18px;
+}
 *{
     box-sizing: border-box;
-}
-body{
-    margin: 0;
 }
 /* colors and fonts */
 header, footer{
@@ -10,18 +10,19 @@ header, footer{
 }
 
 h1{
-    font-size: 44px;
+    font-size: 2.5rem;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
 header span{
-    font-size: 24px;
+    font-size: 1rem;
     color: #F9FAF8;
+    text-align: center;
 }
 
 header li a, li, .container p, .button a{
-    font-size: 18px;
+    font-size: 1rem;
     color: #E5E7EB;
     text-decoration: none;
     list-style-type: none;
@@ -32,7 +33,7 @@ header li a, li, .container p, .button a{
 }
 
 main h2{
-    font-size: 36px;
+    font-size: 1.1rem;
     font-weight: bolder;
 }
 
@@ -41,9 +42,10 @@ article{
 }
 
 article p, article span{
-    font-size: 36px;
+    font-size: 1.5rem;
     font-weight: lighter;
     color: #1F2937;
+    text-align: center;
 }
 /* colors and fonts */
 
@@ -51,40 +53,43 @@ article p, article span{
 header{
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    padding: 0 50px 50px 50px;
+    padding: 2rem;
+    gap: 2rem;
 }
 
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 400px;
+    flex-wrap: wrap;
+    gap: 1.8rem;
 }
 
 ul{
     display: flex;
-    gap: 20px;
+    gap: 1rem;
 }
 
 .container{
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .expla{
-    width: 450px;
-    height: 270px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 400px;
+    height: 230px;
 }
 
 .img{
-    width: 500px;
-    height: 270px;
-}
-
-.container .img{
     background-color: #9397a0;
+    width: 400px;
+    height: 230px;
 }
 
 .img, .button{
@@ -95,32 +100,39 @@ ul{
 .button{
     width: 90px;
     height: 30px;
-    border-radius: 4px;
+    border-radius: .7rem;
 }
 /* header */
 
 /* main */
 main{
-    padding: 10px 50px 50px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
 }
 
 .boxes{
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .box{
     border: 3px solid #3882F6;
-    border-radius: 5px;
+    border-radius: 1rem;
     width: 150px;
     height: 150px;
 }
 
 .info{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
     width: 150px;
     text-align: center;
 }
@@ -128,55 +140,40 @@ main{
 
 /* article */
 article{
-    padding: 70px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-article p{
-    width: 780px;
-}
-
-article span{
-    position: relative;
-    left: 170px;
-}
 /* article */
 
-/* cont */
-.cont{
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/* call */
 .call{
-    padding: 10px 150px;
-    background-color: #3882F6;
-    border-radius: 4px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 150px;
+    flex-wrap: wrap;
+    background-color: #3882F6;
     color: white;
+    padding: 2rem;
+    gap: 1rem;
 }
 
-.cont .button{
-    position: relative;
-    top: 15px;
+.call .button{
     border: 1px solid white;
 } 
 /* cont */
 
 /* footer */
 footer{
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
     color: white;
 }
 /* footer */
